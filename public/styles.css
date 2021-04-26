@@ -1,0 +1,40 @@
+body {
+    font-size: 15px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container-allcards {
+    width: 864px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 288px 288px 288px;
+    grid-template-rows: 500px ;
+    grid-template-areas: "sedans suvs luxury" 
+}
+
+.container-cards-sedans {
+    grid-area: sedans;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:  15px ;
+}
+
+.container-cards-suvs {
+    grid-area: suvs;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.container-cards-luxury {
+    grid-area: luxury;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:  15px ;
+}
