@@ -38,3 +38,127 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius:  15px ;
 }
+
+.sedans-logo {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.sedans-title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-size: 2.8em;
+    margin-left: 40px;
+}
+
+.sedans-p {
+    margin-left: 40px;
+    width: 208px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    margin-top: -10px;
+}
+
+.sedans-btn {
+    margin-left: 40px;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca';
+    cursor: pointer;
+}
+
+.sedans-btn:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: ease-in-out 0.5s;
+}
+
+.suvs-logo {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.suvs-title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-size: 2.8em;
+    margin-left: 40px;
+}
+
+.suvs-p {
+    margin-left: 40px;
+    width: 208px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    margin-top: -10px;
+}
+
+.suvs-btn {
+    margin-left: 40px;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca';
+    cursor: pointer;
+}
+
+.suvs-btn:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: ease-in-out 0.5s;
+}
+
+
+.luxury-logo {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.luxury-title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-size: 2.8em;
+    margin-left: 40px;
+}
+
+.luxury-p {
+    margin-left: 40px;
+    width: 208px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    margin-top: -10px;
+}
+
+.luxury-btn {
+    margin-left: 40px;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca';
+    cursor: pointer;
+}
+
+.luxury-btn:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: ease-in-out 0.5s;
+}
